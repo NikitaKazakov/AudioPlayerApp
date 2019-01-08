@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		767087B171DA8F587207955CAE7A935D /* Pods-AudioPlayerApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1F6D40FBDA79E1F96FAE4B6BAEAD828 /* Pods-AudioPlayerApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A85DDA82105465191090E1CD3FCDC00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3917A50EB224EEDBC66971700D698782 /* UIKit.framework */; };
+		81757F684D084AC69DAE797488D314F2 /* MarqueeLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2623477565B980B22C2D63452ABAF1 /* MarqueeLabel-dummy.m */; };
+		95CAA354663F56E485E5FE1717208F00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		9E0D968D25447E433D6CD0E48E2FF01D /* Pods-AudioPlayerApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1D3D3AC04ADD0A49DF713A38F98ABF /* Pods-AudioPlayerApp-dummy.m */; };
+		B812F90DB775AFDF1DFA13480D844916 /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A9923BCEFC384F176B7DCC0BC296ED /* MarqueeLabel.swift */; };
+		BE64F09C3FD8A8D6792060FA5E10381A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */; };
+		DB923051D121B166B855AF1C0809BAEF /* MarqueeLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6515F1CC6968BEDF4998BB9F93F1CB0D /* MarqueeLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E12F2F4AB46F2B8AF5E38C1A05C89C0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CC2CDD86F3DD5E8DED5063B9A8F5D73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 320AD47B0C6BA014D301395D3BFC8FB6;
+			remoteInfo = MarqueeLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		078246517276E70F36EDEC6CBA117BB0 /* MarqueeLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-prefix.pch"; sourceTree = "<group>"; };
+		2DD65B474CC93798CDF1A4B9193AB06E /* Pods-AudioPlayerApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioPlayerApp-frameworks.sh"; sourceTree = "<group>"; };
+		33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3917A50EB224EEDBC66971700D698782 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3C2623477565B980B22C2D63452ABAF1 /* MarqueeLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarqueeLabel-dummy.m"; sourceTree = "<group>"; };
+		563CFCA7109D8236E95F99769F92B859 /* Pods-AudioPlayerApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioPlayerApp-resources.sh"; sourceTree = "<group>"; };
+		586A9814595680682215DDC25C01D53D /* Pods-AudioPlayerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AudioPlayerApp.release.xcconfig"; sourceTree = "<group>"; };
+		6515F1CC6968BEDF4998BB9F93F1CB0D /* MarqueeLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-umbrella.h"; sourceTree = "<group>"; };
+		6A1D3D3AC04ADD0A49DF713A38F98ABF /* Pods-AudioPlayerApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AudioPlayerApp-dummy.m"; sourceTree = "<group>"; };
+		79520E89AA6FA4410DA722235A6FF3F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		991171E3D55F032870CC0649C0C5CF15 /* Pods_AudioPlayerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AudioPlayerApp.framework; path = "Pods-AudioPlayerApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F6D40FBDA79E1F96FAE4B6BAEAD828 /* Pods-AudioPlayerApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AudioPlayerApp-umbrella.h"; sourceTree = "<group>"; };
+		A88DD16C6BD7DF0ECE8368CFFAF5ADBC /* Pods-AudioPlayerApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AudioPlayerApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		ADFA2D11C1FAA2B7895E5B196E496303 /* Pods-AudioPlayerApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AudioPlayerApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B1B76AB752171DCAFEB7C097785E429B /* MarqueeLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MarqueeLabel.framework; path = MarqueeLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B592B633FCB27A157FB97E4ACABD4B86 /* MarqueeLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.xcconfig; sourceTree = "<group>"; };
+		B9C6AD68A5E3E7DAF680090E568D73DE /* Pods-AudioPlayerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AudioPlayerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C45865EA5A2FE6A1B3A1C66F52B81859 /* MarqueeLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MarqueeLabel.modulemap; sourceTree = "<group>"; };
+		C5A9923BCEFC384F176B7DCC0BC296ED /* MarqueeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarqueeLabel.swift; path = Sources/Swift/MarqueeLabel.swift; sourceTree = "<group>"; };
+		D35798B577C56922ABB4E1C6FC6E7133 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F88858EBAFD418F5B1C8F32A4C038E45 /* Pods-AudioPlayerApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AudioPlayerApp.modulemap"; sourceTree = "<group>"; };
+		FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F5FC9B769DA1FF6125180F1DB19B67A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CAA354663F56E485E5FE1717208F00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5881BC4ADA6E767FAC6CDFC9A796C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12F2F4AB46F2B8AF5E38C1A05C89C0D /* Foundation.framework in Frameworks */,
+				BE64F09C3FD8A8D6792060FA5E10381A /* QuartzCore.framework in Frameworks */,
+				7A85DDA82105465191090E1CD3FCDC00 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93A319F2C1969B7AA0B17444A3F8BA22 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E9D5C2A2348D78C78275373A4D94A7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1B76AB752171DCAFEB7C097785E429B /* MarqueeLabel.framework */,
+				991171E3D55F032870CC0649C0C5CF15 /* Pods_AudioPlayerApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		385F135C89B39F39B01D288D34E843EF /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				C5A9923BCEFC384F176B7DCC0BC296ED /* MarqueeLabel.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		3B19AA8F16351A71520CE2F78DB0FDDA /* Pods-AudioPlayerApp */ = {
+			isa = PBXGroup;
+			children = (
+				79520E89AA6FA4410DA722235A6FF3F9 /* Info.plist */,
+				F88858EBAFD418F5B1C8F32A4C038E45 /* Pods-AudioPlayerApp.modulemap */,
+				ADFA2D11C1FAA2B7895E5B196E496303 /* Pods-AudioPlayerApp-acknowledgements.markdown */,
+				A88DD16C6BD7DF0ECE8368CFFAF5ADBC /* Pods-AudioPlayerApp-acknowledgements.plist */,
+				6A1D3D3AC04ADD0A49DF713A38F98ABF /* Pods-AudioPlayerApp-dummy.m */,
+				2DD65B474CC93798CDF1A4B9193AB06E /* Pods-AudioPlayerApp-frameworks.sh */,
+				563CFCA7109D8236E95F99769F92B859 /* Pods-AudioPlayerApp-resources.sh */,
+				A1F6D40FBDA79E1F96FAE4B6BAEAD828 /* Pods-AudioPlayerApp-umbrella.h */,
+				B9C6AD68A5E3E7DAF680090E568D73DE /* Pods-AudioPlayerApp.debug.xcconfig */,
+				586A9814595680682215DDC25C01D53D /* Pods-AudioPlayerApp.release.xcconfig */,
+			);
+			name = "Pods-AudioPlayerApp";
+			path = "Target Support Files/Pods-AudioPlayerApp";
+			sourceTree = "<group>";
+		};
+		525FA405AF2C98970D415CAB624258F1 /* MarqueeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				E18EA82909120C20E37F74E04A441070 /* Support Files */,
+				385F135C89B39F39B01D288D34E843EF /* Swift */,
+			);
+			name = MarqueeLabel;
+			path = MarqueeLabel;
+			sourceTree = "<group>";
+		};
+		5A32E81BAAF57F11ADA37F022BF97847 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				525FA405AF2C98970D415CAB624258F1 /* MarqueeLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				5A32E81BAAF57F11ADA37F022BF97847 /* Pods */,
+				1E9D5C2A2348D78C78275373A4D94A7C /* Products */,
+				BE4F032E47777785FA042EA6BA96474F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93A319F2C1969B7AA0B17444A3F8BA22 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */,
+				FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */,
+				3917A50EB224EEDBC66971700D698782 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BE4F032E47777785FA042EA6BA96474F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B19AA8F16351A71520CE2F78DB0FDDA /* Pods-AudioPlayerApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E18EA82909120C20E37F74E04A441070 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D35798B577C56922ABB4E1C6FC6E7133 /* Info.plist */,
+				C45865EA5A2FE6A1B3A1C66F52B81859 /* MarqueeLabel.modulemap */,
+				B592B633FCB27A157FB97E4ACABD4B86 /* MarqueeLabel.xcconfig */,
+				3C2623477565B980B22C2D63452ABAF1 /* MarqueeLabel-dummy.m */,
+				078246517276E70F36EDEC6CBA117BB0 /* MarqueeLabel-prefix.pch */,
+				6515F1CC6968BEDF4998BB9F93F1CB0D /* MarqueeLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MarqueeLabel";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		069D6EBA7368798818DA48F75AF357A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767087B171DA8F587207955CAE7A935D /* Pods-AudioPlayerApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4CC9FD659266292E00B030BE3557AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB923051D121B166B855AF1C0809BAEF /* MarqueeLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		320AD47B0C6BA014D301395D3BFC8FB6 /* MarqueeLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB93BA3C12E3426B5019CB531E1C08DC /* Build configuration list for PBXNativeTarget "MarqueeLabel" */;
+			buildPhases = (
+				E424089A1B4CDB88E747B5F58F5C64AC /* Sources */,
+				F5881BC4ADA6E767FAC6CDFC9A796C14 /* Frameworks */,
+				AC4CC9FD659266292E00B030BE3557AE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarqueeLabel;
+			productName = MarqueeLabel;
+			productReference = B1B76AB752171DCAFEB7C097785E429B /* MarqueeLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		751E36B8F67C84406B5EBB5C3EACE3CF /* Pods-AudioPlayerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FEEE4C327A898424E82E6C126F3969D /* Build configuration list for PBXNativeTarget "Pods-AudioPlayerApp" */;
+			buildPhases = (
+				267E50A5C80FB6E4124236F1CAE22324 /* Sources */,
+				8F5FC9B769DA1FF6125180F1DB19B67A /* Frameworks */,
+				069D6EBA7368798818DA48F75AF357A3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73866AE883FCDB0E5A02AA345A945687 /* PBXTargetDependency */,
+			);
+			name = "Pods-AudioPlayerApp";
+			productName = "Pods-AudioPlayerApp";
+			productReference = 991171E3D55F032870CC0649C0C5CF15 /* Pods_AudioPlayerApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1E9D5C2A2348D78C78275373A4D94A7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				320AD47B0C6BA014D301395D3BFC8FB6 /* MarqueeLabel */,
+				751E36B8F67C84406B5EBB5C3EACE3CF /* Pods-AudioPlayerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		267E50A5C80FB6E4124236F1CAE22324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0D968D25447E433D6CD0E48E2FF01D /* Pods-AudioPlayerApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E424089A1B4CDB88E747B5F58F5C64AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81757F684D084AC69DAE797488D314F2 /* MarqueeLabel-dummy.m in Sources */,
+				B812F90DB775AFDF1DFA13480D844916 /* MarqueeLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73866AE883FCDB0E5A02AA345A945687 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarqueeLabel;
+			target = 320AD47B0C6BA014D301395D3BFC8FB6 /* MarqueeLabel */;
+			targetProxy = 0CC2CDD86F3DD5E8DED5063B9A8F5D73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30D948AE62C04225F8DEF8734A4C5A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5F6EA2DD569BA19B8259CC83CA84DFBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B592B633FCB27A157FB97E4ACABD4B86 /* MarqueeLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarqueeLabel/MarqueeLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarqueeLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MarqueeLabel/MarqueeLabel.modulemap";
+				PRODUCT_MODULE_NAME = MarqueeLabel;
+				PRODUCT_NAME = MarqueeLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CAF0AC8B30FCD2EC250A4CA2EF2AF051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B592B633FCB27A157FB97E4ACABD4B86 /* MarqueeLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarqueeLabel/MarqueeLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarqueeLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MarqueeLabel/MarqueeLabel.modulemap";
+				PRODUCT_MODULE_NAME = MarqueeLabel;
+				PRODUCT_NAME = MarqueeLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2741EE829A1F35E34DF838B8983823D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C6AD68A5E3E7DAF680090E568D73DE /* Pods-AudioPlayerApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AudioPlayerApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AudioPlayerApp/Pods-AudioPlayerApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F6713A3056B89FAB9A3BDBDF747C8A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586A9814595680682215DDC25C01D53D /* Pods-AudioPlayerApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AudioPlayerApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AudioPlayerApp/Pods-AudioPlayerApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */,
+				30D948AE62C04225F8DEF8734A4C5A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FEEE4C327A898424E82E6C126F3969D /* Build configuration list for PBXNativeTarget "Pods-AudioPlayerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2741EE829A1F35E34DF838B8983823D /* Debug */,
+				F6713A3056B89FAB9A3BDBDF747C8A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB93BA3C12E3426B5019CB531E1C08DC /* Build configuration list for PBXNativeTarget "MarqueeLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6EA2DD569BA19B8259CC83CA84DFBE /* Debug */,
+				CAF0AC8B30FCD2EC250A4CA2EF2AF051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="151" id="28X-NJ-XLg" customClass="TrackTableViewCell" customModule="AudioPlayerApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="151"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="28X-NJ-XLg" id="hUt-xh-e64">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="150.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSk-xH-bMq">
+                        <rect key="frame" x="135" y="62" width="214" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d7v-7W-q65">
+                        <rect key="frame" x="20" y="20" width="105" height="105"/>
+                        <color key="backgroundColor" red="1" green="0.97342792619999996" blue="0.097889851089999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="105" id="WUj-ca-dRc"/>
+                            <constraint firstAttribute="height" constant="105" id="iSJ-Hg-b0e"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="d7v-7W-q65" secondAttribute="bottom" constant="20" id="7Ik-7o-crD"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="fSk-xH-bMq" secondAttribute="trailing" constant="10" id="9TY-9q-yc4"/>
+                    <constraint firstItem="fSk-xH-bMq" firstAttribute="centerY" secondItem="d7v-7W-q65" secondAttribute="centerY" id="SKi-aY-n9T"/>
+                    <constraint firstItem="d7v-7W-q65" firstAttribute="centerY" secondItem="hUt-xh-e64" secondAttribute="centerY" id="c50-Mp-ToF"/>
+                    <constraint firstItem="fSk-xH-bMq" firstAttribute="leading" secondItem="d7v-7W-q65" secondAttribute="trailing" constant="10" id="rfw-a1-xsD"/>
+                    <constraint firstItem="d7v-7W-q65" firstAttribute="leading" secondItem="hUt-xh-e64" secondAttribute="leading" constant="20" id="sHO-dX-lHH"/>
+                    <constraint firstItem="d7v-7W-q65" firstAttribute="top" secondItem="hUt-xh-e64" secondAttribute="top" constant="20" id="yXf-Cu-kfW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="authorImage" destination="d7v-7W-q65" id="bSb-sG-GUU"/>
+                <outlet property="trackImageView" destination="c50-Mp-ToF" id="UoT-wX-w4z"/>
+                <outlet property="trackName" destination="fSk-xH-bMq" id="mOn-71-SL0"/>
+            </connections>
+            <point key="canvasLocation" x="23.5" y="-32.5"/>
+        </tableViewCell>
+    </objects>
+</document>
