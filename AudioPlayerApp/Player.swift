@@ -80,7 +80,7 @@ class Player: NSObject {
             player?.volume = volume
             let updater = CADisplayLink(target: Player.shared, selector: #selector(trackAudio))
             updater.preferredFramesPerSecond = 1
-            updater.add(to: RunLoop.current, forMode: RunLoopMode.commonModes)
+            updater.add(to: RunLoop.current, forMode: RunLoop.Mode.common)
             Player.shared.play()
         } catch {
             // Error
@@ -90,6 +90,12 @@ class Player: NSObject {
     
     func play(){
         player?.play()
+        let session = AVAudioSession.sharedInstance()
+        do {
+            try session.setCategory(.playback, mode: AVAudioSession.Mode.default, options: AVAudioSession.CategoryOptions.allowAirPlay)
+        } catch {
+            
+        }
         NotificationCenter.default.post(name: NSNotification.Name(rawValue: "kek"), object: nil)
     }
     
